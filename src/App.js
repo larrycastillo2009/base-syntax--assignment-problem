@@ -49,6 +49,9 @@ class App extends Component {
           <li>Add two-way-binding to your input (in UserInput) to also display the starting username</li>
           <li>Add styling of your choice to your components/ elements in the components - both with inline styles and stylesheets</li>
         </ol>
+
+        <p>SOLUTION</p>
+
         <UserInput changed={this.nameChangedHandler}></UserInput>
         <UserOutput body={this.state.userOutputs[0].jeffsum} name={this.state.userOutputs[0].name}></UserOutput>
         <UserOutput body={this.state.userOutputs[1].jeffsum} name={this.state.userOutputs[1].name}></UserOutput>
